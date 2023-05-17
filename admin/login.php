@@ -39,25 +39,11 @@ endif;
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: NiceAdmin - v2.4.0
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
-
 
 <body>
   <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
@@ -67,7 +53,7 @@ endif;
 
           <div class="d-flex justify-content-center py-4">
             <a href="index.html" class="logo d-flex align-items-center w-auto">
-              
+
               <span class="d-none d-lg-block"></span>
             </a>
           </div><!-- End Logo -->
@@ -77,8 +63,8 @@ endif;
             <div class="card-body">
 
               <div class="pt-4 pb-2">
-              
-              <div style="display: flex; justify-content: center;"><img src="../assets/img/logo.jpg" style="max-width: 200px; max-height: 90px;" alt=""></div>
+
+                <div style="display: flex; justify-content: center;"><img src="../assets/img/logo.jpg" style="max-width: 200px; max-height: 90px;" alt=""></div>
                 <h5 class="card-title text-center pb-0 fs-4">Entrar no Sistema</h5>
               </div>
               <form class="row g-3" action="" method="POST">
@@ -102,7 +88,7 @@ endif;
                 <div class="col-12">
                   <button style="background-color: #214e39; border: none;" type="submit" name="ok" class="btn btn-primary w-100">Login</button>
                 </div>
-              <?php
+                <?php
                 if (isset($successMSG)) {
                   if (isset($_SESSION['logado'])) :
                   else :
@@ -118,7 +104,7 @@ endif;
                     <div style="margin-right: 15px;" class="c-loader"></div>
                     <div><?php echo $successMSG; ?></div>
                   </div>
-               
+
                 <?php
                 }
                 ?>
@@ -126,8 +112,8 @@ endif;
                 if (isset($errMSG)) {
                 ?>
                   <div id="error" class="col-12 alert alert-danger" role="alert">
-                  <i style="margin-right: 15px;" class="bi bi-x-octagon"></i><?php echo $errMSG; ?>
-                  </div>  
+                    <i style="margin-right: 15px;" class="bi bi-x-octagon"></i><?php echo $errMSG; ?>
+                  </div>
             </div>
           <?php
                 }
@@ -137,11 +123,11 @@ endif;
       </div>
     </div>
   </section>
-          </div>
-        </div>
-        <script type="text/javascript">
-          window.setTimeout(function() {
-            document.getElementById("clickButton").click();
-          }, 1500);
-        </script>
+  </div>
+  </div>
+  <script type="text/javascript">
+    window.setTimeout(function() {
+      document.getElementById("clickButton").click();
+    }, 1500);
+  </script>
 </body>
