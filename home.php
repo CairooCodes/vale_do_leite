@@ -156,7 +156,20 @@ error_reporting(~E_ALL); // avoid notice
                     </div>
                     <div class="member-info">
                       <h4 style="height: 50px;"><?php echo $nome; ?></h4>
+                      <div style="overflow: hidden; /* remove o estouro do elemento */
+                      text-overflow: ellipsis; /* adiciona “...” no final */
+                      display: -webkit-box;
+                      -webkit-line-clamp: 4; /* quantidade de linhas */
+                      -webkit-box-orient: vertical; /* conteúdo será apresentado verticalmente */; 
+                      min-height:120px;
+                      font-size: 14px;
+                      padding-top: 15px;
+                      line-height: 26px;
+                      max-height:20px;
+                      color: #8d8d9b;
+                      margin-bottom: 5px;" class="infoNutri">
                       <?php echo $infoNutri; ?>
+                      </div>
                       <br>
                       <a href="<?php echo $URI->base('produto/' . slugify($nome)); ?>"><button type="button" class="btn">Ver detalhes</button></a>
                     </div>
@@ -212,7 +225,7 @@ error_reporting(~E_ALL); // avoid notice
       </h1>
       <div class="row">
         <div class="col-lg-6 about-img mb-4">
-          <img class="img-fluid" src="./assets/img/fabrica.png">
+          <img class="img-fluid" src="./assets/img/fabrica.PNG">
         </div>
         <div class="col-lg-6">
           <div id="aboutText">

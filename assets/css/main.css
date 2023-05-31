@@ -1223,7 +1223,7 @@ section {
   color: rgba(33, 37, 41, 0.4);
 }
 
-.member-info p {
+.infoNutri{
   overflow: hidden; /* remove o estouro do elemento */
    text-overflow: ellipsis; /* adiciona “...” no final */
    display: -webkit-box;
