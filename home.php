@@ -17,6 +17,7 @@ error_reporting(~E_ALL); // avoid notice
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Vale do Leite</title>
+  <meta name="google-site-verification" content="fISrrBOlY0C48JDnzEv3MUDAT7PcaVtd23AQCX4nNBc" />
   <meta content="Vale do Leite - O sabor da vida vem do campo" name="description">
   <meta content="Vale do leite, leite, vale, laticinios, queijo, vale do leite, leite, laticínios, queijo, nutritivo ,saudável ,alta qualidade, manteiga, bebida láctea, nata, creme de leite, queijo mussarela, requeijão, zero lactose, doce de leite, fornecedor latocínio, queijo coalho" name="keywords">
 

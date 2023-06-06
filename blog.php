@@ -18,7 +18,7 @@ function remove_simbolos_acentos($string)
 
 
 $url = explode("/", $_SERVER['REQUEST_URI']);
-$idPost = $url[4];
+$idPost = $url[2];
 
 $idPost2 = "";
 
